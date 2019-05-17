@@ -6,13 +6,22 @@ td {
   font-size: 100px;
   font-family: Arial, Helvetica, sans-serif;
 }
+@media only screen and (max-width: 102em) {
+  td {
+    width: 100px;
+    height: 100px;
+    font-size: 80px;
+  }
+}
 
 table {
   border-collapse: collapse;
   border-style: hidden;
   margin: auto;
   margin-top: 30px;
+  height: 100px;
 }
+
 
 .welcome-reset {
   text-align: center;
@@ -33,8 +42,9 @@ table {
 
 body {
   background-image: url("http://www.pptbackgrounds.org/uploads/tic-tac-toe-backgrounds-wallpapers.jpg");
-  background-repeat: no-repeat;
-  background-size: 120em 70em;
+  background-size: cover;
+  background-position: top;
+  height: 100vh;
 }
 
 .wins {
@@ -50,7 +60,6 @@ body {
 }
 
 .container {
-  widows: 100px;
   height: 100px;
   position: relative;
 }
