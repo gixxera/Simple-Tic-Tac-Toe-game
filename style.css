@@ -14,6 +14,14 @@ td {
   }
 }
 
+@media only screen and (max-width: 82em) {
+  td {
+    width: 75px;
+    height: 75px;
+    font-size: 60px;
+  }
+}
+
 table {
   border-collapse: collapse;
   border-style: hidden;
