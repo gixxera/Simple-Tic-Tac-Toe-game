@@ -53,6 +53,7 @@ body {
   background-size: cover;
   background-position: top;
   height: 100vh;
+  overflow: hidden;
 }
 
 .wins {
